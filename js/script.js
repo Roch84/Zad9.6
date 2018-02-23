@@ -8,7 +8,7 @@ add.addEventListener('click', function(element) {
 	console.log(values.length);
 	list.appendChild(element);
 	element.innerHTML = 'item ' + value;
-	if (value == 5) {
+	if (value === 5) {
 		alert('!!Caution-Be aware of creating too many buttons.');
 	}
 });
